@@ -14,46 +14,57 @@
         line-height: 1.6;
       }
       /*Basic styling for the navigation bar*/
-body{
-font-family: Arial,sans-serif;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
- nav{
-background-color:rgb(38, 7, 73);
-padding:10px;
-position: fixed;
-width: 100%;
-text-align: center;
-   bottom:81%;
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
 }
- nav ul {
-list-style-type:
-none;
-     margin:0;
-     padding:0;
-     overflow:hidden;
-     
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
- nav ul li {
-    list-style-type:
-none;
-     margin: 0;
-     padding: 0;
-     height: 50%;
-overflow: hidden;
+
+.logo h1 {
+    margin: 0;
 }
- nav ul li {
-    float: left;
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
     margin-right: 20px;
-    margin: 1%;
 }
- nav ul li a{
-    color: white;
+
+.nav-links a {
+    color: #fff;
     text-decoration: none;
-    padding: 8px 16px;
-    display: block;
 }
- nav ul li a:hover {
-     background-color:
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+}
 #575757;
         }
 h1{color:rgb(13, 224, 59);}
